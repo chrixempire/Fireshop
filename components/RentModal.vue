@@ -41,7 +41,6 @@
     }
   </script>
   
-  
   <style scoped>
       button {
           width: 100%;
