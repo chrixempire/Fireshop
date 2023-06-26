@@ -1,7 +1,7 @@
 <template>
  <div >
   <div class="container">
-    <heroes/>
+    <Heroes/>
   <largeCardDisplay
   v-for="cardInfo in largeCardInfo"
   :key="cardInfo.id"
@@ -17,9 +17,9 @@
 </template>
 
 <script>
-import heroes from '~/components/heroes.vue'
+import Heroes from '~/components/Heroes.vue'
 import {largeCardSections, smallCardSections } from '@/assets/data.js'
-import largeCardDisplay from '~/components/largeCardDisplay.vue'
+import largeCardDisplay from '~/components/LargeCardDisplay.vue'
 import smallCardDisplay from '~/components/smallCardDisplay.vue'
 
 export default {
